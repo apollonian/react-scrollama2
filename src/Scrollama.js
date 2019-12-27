@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react';
 import PropTypes from 'prop-types';
-import uuidv4 from 'uuid/v4';
 import { getPageHeight } from './utils';
 import DebugOffset from './DebugOffset';
 
@@ -55,8 +54,8 @@ class Scrollama extends Component {
     super(props);
     const { children, onStepEnter, onStepExit, offset, debug } = this.props;
 
-    React.Children.forEach(children, () => {
-      const childId = uuidv4();
+    React.Children.forEach(children, (_, index) => {
+      const childId = `scrollama2-${index}`;
       this[childId] = React.createRef();
       this.stepElIds.push(childId);
     });

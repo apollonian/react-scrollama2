@@ -1,6 +1,6 @@
 {
-  "name": "react-scrollama-example",
-  "homepage": "https://jsonkao.github.io/react-scrollama",
+  "name": "react-scrollama2-example",
+  "homepage": "https://apollonian.github.io/react-scrollama2",
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
@@ -8,7 +8,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-scrollama": "file:../",
+    "react-scrollama2": "file:../",
     "react-scripts": "^1.1.4"
   },
   "scripts": {

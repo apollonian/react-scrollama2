@@ -1,1 +1,1 @@
-# react-scrollama example
+# react-scrollama2 example

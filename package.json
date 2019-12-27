@@ -1,10 +1,9 @@
 {
-  "name": "react-scrollama",
-  "version": "1.0.1",
-  "description": "A simple scrollytelling interface for React using the IntersectionObserver.",
-  "author": "Jason Kao <jason.kao@columbia.edu> (https://jasonkao.me)",
+  "name": "react-scrollama2",
+  "version": "1.0.0",
+  "description": "react-scrollama with SSR support.",
+  "author": "Abhishek Warokar <abhishek@devfolio.co> (https://abhi.studio)",
   "license": "MIT",
-  "homepage": "https://jsonkao.github.io/react-scrollama/",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "keywords": [
@@ -19,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jsonkao/react-scrollama"
+    "url": "https://github.com/apollonian/react-scrollama2"
   },
   "engines": {
     "node": ">=8",
@@ -34,8 +33,8 @@
   },
   "peerDependencies": {
     "prop-types": "^15.5.4",
-    "react": "^15.0.0 || ^16.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0"
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -44,16 +43,16 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "cross-env": "^5.1.4",
-    "eslint": "^5.0.1",
-    "eslint-config-standard": "^11.0.0",
-    "eslint-config-standard-react": "^6.0.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-node": "^7.0.1",
-    "eslint-plugin-promise": "^4.0.0",
-    "eslint-plugin-react": "^7.10.0",
-    "eslint-plugin-standard": "^3.1.0",
-    "gh-pages": "^1.2.0",
+    "cross-env": "^6.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "gh-pages": "^2.1.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
@@ -67,8 +66,8 @@
   },
   "dependencies": {
     "babel-plugin-transform-runtime": "^6.23.0",
-    "intersection-observer": "^0.5.1",
-    "react-jss": "^8.6.1"
+    "intersection-observer": "^0.7.0",
+    "react-jss": "^10.0.0"
   },
   "files": [
     "dist"

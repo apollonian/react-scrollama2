@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import ReactDOM from 'react-dom';
 import injectSheet from 'react-jss';
-import { Scrollama, Step } from 'react-scrollama';
+import { Scrollama, Step } from 'react-scrollama2';
 
 const styles = {
   main: {
